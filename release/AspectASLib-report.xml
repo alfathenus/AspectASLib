@@ -1,0 +1,2901 @@
+<report>
+  <scripts>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IProxyFactory)" mod="1333118814318" size="2095" optimizedsize="575">
+      <def id="org.as3commons.bytecode.proxy:IProxyFactory" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryEvent" />
+      <dep id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.emit:IAbcBuilder" />
+      <dep id="AS3" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyInfo" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IPropertyBuilder)" mod="1303125100661" size="1949" optimizedsize="522">
+      <def id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IEmitMember" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.impl:MemberInitialization" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception.impl:InvocationKind)" mod="1303125085403" size="1727" optimizedsize="948">
+      <def id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:RGB)" mod="1303125093715" size="1121" optimizedsize="418">
+      <def id="org.as3commons.bytecode.tags.struct:RGB" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:AccessorBuilder)" mod="1303125099616" size="6648" optimizedsize="3762">
+      <def id="org.as3commons.bytecode.emit.impl:AccessorBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:PropertyBuilder" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.emit.event:AccessorBuilderEvent" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:AbcSpec)" mod="1333223304469" size="6265" optimizedsize="3005">
+      <def id="org.as3commons.bytecode.util:AbcSpec" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Endian" />
+      <dep id="org.as3commons.bytecode.util:ReadWritePair" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:ClassConstant)" mod="1332956915754" size="1756" optimizedsize="888">
+      <def id="org.as3commons.bytecode.abc.enum:ClassConstant" />
+      <pre id="org.as3commons.bytecode.abc.enum:BaseEnum" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:BaseParameter)" mod="1332407293090" size="2148" optimizedsize="1013">
+      <def id="org.as3commons.reflect:BaseParameter" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect.util:CacheUtil" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IMetadataBuilder)" mod="1303125100659" size="1325" optimizedsize="408">
+      <def id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataArgument" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags:AbstractTag)" mod="1303125094651" size="1000" optimizedsize="469">
+      <def id="org.as3commons.bytecode.tags:AbstractTag" />
+      <pre id="org.as3commons.bytecode.tags:ISWFTag" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:ITypeBuilder)" mod="1303125100660" size="1783" optimizedsize="523">
+      <def id="org.as3commons.bytecode.emit:ITypeBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IEmitObject" />
+      <pre id="org.as3commons.bytecode.emit:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:Op)" mod="1333211795202" size="2671" optimizedsize="1632">
+      <def id="org.as3commons.bytecode.abc:Op" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:Integer" />
+      <dep id="org.as3commons.bytecode.abc:UnsignedInteger" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:RGBASerializer)" mod="1303125094613" size="1185" optimizedsize="645">
+      <def id="org.as3commons.bytecode.tags.serialization:RGBASerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:RGBSerializer" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+      <dep id="org.as3commons.bytecode.tags.struct:RGBA" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Constructor)" mod="1332407293050" size="1281" optimizedsize="658">
+      <def id="org.as3commons.reflect:Constructor" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect:Parameter" />
+      <dep id="org.as3commons.reflect:BaseParameter" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.graphics:RectangularDropShadow)" mod="1318268668048" size="6758" optimizedsize="3397">
+      <def id="mx.graphics:RectangularDropShadow" />
+      <pre id="Object" />
+      <dep id="mx.core:FlexShape" />
+      <dep id="flash.display:Graphics" />
+      <dep id="flash.display:BitmapData" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="flash.geom:Matrix" />
+      <dep id="Math" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="flash.filters:DropShadowFilter" />
+      <dep id="mx.utils:GraphicsUtil" />
+      <dep id="flash.geom:Point" />
+      <dep id="flash.display:Shape" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:TypeCache)" mod="1332407293084" size="1873" optimizedsize="1000">
+      <def id="org.as3commons.reflect:TypeCache" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:PackageBuilder)" mod="1312721764402" size="5759" optimizedsize="3169">
+      <def id="org.as3commons.bytecode.emit.impl:PackageBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IPackageBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.emit.impl:InterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit.impl:ClassBuilder" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+      <dep id="org.as3commons.bytecode.emit.impl:NamespaceBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeVariable)" mod="1320246363547" size="2623" optimizedsize="1187">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeVariable" />
+      <pre id="org.as3commons.reflect:Variable" />
+      <pre id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IMethodProxyFactory)" mod="1315949726803" size="1236" optimizedsize="527">
+      <def id="org.as3commons.bytecode.proxy:IMethodProxyFactory" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:CtorBuilder)" mod="1312615708248" size="2133" optimizedsize="1467">
+      <def id="org.as3commons.bytecode.emit.impl:CtorBuilder" />
+      <pre id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:DoABCSerializer)" mod="1303125094610" size="2309" optimizedsize="1164">
+      <def id="org.as3commons.bytecode.tags.serialization:DoABCSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:AbstractTagSerializer" />
+      <dep id="org.as3commons.bytecode.tags.serialization:IStructSerializerFactory" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+      <dep id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+      <dep id="org.as3commons.bytecode.tags:DoABCTag" />
+      <dep id="org.as3commons.bytecode.io:AbcSerializer" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MethodArgument)" mod="1303125099605" size="2471" optimizedsize="1225">
+      <def id="org.as3commons.bytecode.emit.impl:MethodArgument" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit.util:BuildUtil" />
+      <dep id="org.as3commons.bytecode.typeinfo:Argument" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:PlayerGlobalData)" mod="1320246363552" size="15548" optimizedsize="13229">
+      <def id="org.as3commons.bytecode.reflect:PlayerGlobalData" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeConstructor" />
+      <dep id="org.as3commons.reflect:Accessor" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.reflect:Constructor" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.reflect:Variable" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeParameter" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Parameter" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeVariable" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.core:FlexGlobals)" mod="1303837772998" size="356" optimizedsize="184">
+      <def id="mx.core:FlexGlobals" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:ArrayUtils)" mod="1332358561785" size="8724" optimizedsize="3659">
+      <def id="org.as3commons.lang:ArrayUtils" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:IEquals" />
+      <dep id="AS3" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:ConstructorProxyFactory)" mod="1320003483921" size="4372" optimizedsize="3093">
+      <def id="org.as3commons.bytecode.proxy.impl:ConstructorProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractMethodBodyFactory" />
+      <pre id="org.as3commons.bytecode.proxy:IConstructorProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <dep id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeConstructor" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <dep id="org.as3commons.bytecode.abc:MultinameL" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeParameter" />
+      <dep id="org.as3commons.logging.api:getLogger" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.swf:SWFWeaverFileIO)" mod="1303125083564" size="4625" optimizedsize="2884">
+      <def id="org.as3commons.bytecode.swf:SWFWeaverFileIO" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="org.as3commons.bytecode.swf:ISWFFileIO" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+      <dep id="org.as3commons.bytecode.tags.serialization:ITagSerializer" />
+      <dep id="org.as3commons.bytecode.swf.event:SWFFileIOEvent" />
+      <dep id="org.as3commons.bytecode.tags.serialization:DoABCSerializer" />
+      <dep id="org.as3commons.bytecode.swf:SWFFile" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Endian" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+      <dep id="org.as3commons.bytecode.tags.serialization:RecordHeaderSerializer" />
+      <dep id="org.as3commons.bytecode.tags:DoABCTag" />
+      <dep id="org.as3commons.bytecode.tags.serialization:StructSerializerFactory" />
+      <dep id="org.as3commons.bytecode.tags.serialization:UnsupportedSerializer" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IPackageBuilder)" mod="1303125100663" size="1769" optimizedsize="544">
+      <def id="org.as3commons.bytecode.emit:IPackageBuilder" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\utils\AspectASConstants.as" mod="1337221830372" size="201" optimizedsize="195">
+      <def id="com.aspectas.core.utils:AspectASConstants" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:IllegalStateError)" mod="1332358561733" size="506" optimizedsize="215">
+      <def id="org.as3commons.lang:IllegalStateError" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Constant)" mod="1332407293060" size="875" optimizedsize="414">
+      <def id="org.as3commons.reflect:Constant" />
+      <pre id="org.as3commons.reflect:Field" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:AbstractMember" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.utils:NameUtil)" mod="1303837778779" size="1666" optimizedsize="1094">
+      <def id="mx.utils:NameUtil" />
+      <pre id="Object" />
+      <dep id="mx.core:IRepeaterClient" />
+      <dep id="SecurityError" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:PropertyBuilder)" mod="1315949727014" size="7015" optimizedsize="3888">
+      <def id="org.as3commons.bytecode.emit.impl:PropertyBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:EmitMember" />
+      <pre id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.util:EmitUtil" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.impl:MemberInitialization" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ClassMetadataDeserializer)" mod="1332956915646" size="12515" optimizedsize="8509">
+      <def id="org.as3commons.bytecode.reflect:ClassMetadataDeserializer" />
+      <pre id="org.as3commons.bytecode.reflect:ReflectionDeserializer" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="RegExp" />
+      <dep id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeTypeCache" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitAttributes" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc.enum:ClassConstant" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect.util:CacheUtil)" mod="1332407292993" size="1208" optimizedsize="673">
+      <def id="org.as3commons.reflect.util:CacheUtil" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:Integer)" mod="1303125091503" size="436" optimizedsize="188">
+      <def id="org.as3commons.bytecode.abc:Integer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\LogicWeaverRepresentation.as" mod="1340281290980" size="1595" optimizedsize="1527">
+      <def id="com.aspectas.core:LogicWeaverRepresentation" />
+      <pre id="Object" />
+      <dep id="com.aspectas.core.interfaces:IAdvice" />
+      <dep id="com.aspectas.core.utils:PointcutTypes" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="com.aspectas.core:AppDomainContext" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="com.aspectas.core.interfaces:IAspect" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\errors\AOPErrorsContants.as" mod="1337221764927" size="335" optimizedsize="329">
+      <def id="com.aspectas.core.errors:AOPErrorsContants" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:BuiltIns)" mod="1312463212820" size="954" optimizedsize="589">
+      <def id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IMethodBuilder)" mod="1303125100658" size="1864" optimizedsize="553">
+      <def id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IEmitMember" />
+      <pre id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodArgument" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:ClassUtils)" mod="1332358561743" size="10298" optimizedsize="6526">
+      <def id="org.as3commons.lang:ClassUtils" />
+      <pre id="Object" />
+      <dep id="ReferenceError" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="flash.utils:describeType" />
+      <dep id="QName" />
+      <dep id="org.as3commons.lang:ClassNotFoundError" />
+      <dep id="XMLList" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.utils:Proxy" />
+      <dep id="Error" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Timer" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="XML" />
+      <dep id="flash.utils:getQualifiedSuperclassName" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\events\AOPEventComplete.as" mod="1337221771458" size="354" optimizedsize="344">
+      <def id="com.aspectas.core.events:AOPEventComplete" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.events:FlexEvent)" mod="1303837786967" size="3713" optimizedsize="2479">
+      <def id="mx.events:FlexEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:Multiname)" mod="1303125091479" size="1310" optimizedsize="736">
+      <def id="org.as3commons.bytecode.abc:Multiname" />
+      <pre id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:LOGGER_FACTORY)" mod="1317820902509" size="391" optimizedsize="116">
+      <def id="org.as3commons.logging.api:LOGGER_FACTORY" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.logging.api:LoggerFactory" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\elements\Aspect.as" mod="1337221750771" size="898" optimizedsize="878">
+      <def id="com.aspectas.core.elements:Aspect" />
+      <pre id="Object" />
+      <pre id="com.aspectas.core.interfaces:IAspect" />
+      <dep id="com.aspectas.core.interfaces:IAdvice" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:ClassIntroducer)" mod="1333205062463" size="10444" optimizedsize="6699">
+      <def id="org.as3commons.bytecode.proxy.impl:ClassIntroducer" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy:IClassIntroducer" />
+      <dep id="org.as3commons.reflect:Field" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc:MultinameL" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.proxy:IConstructorProxyFactory" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <dep id="org.as3commons.bytecode.proxy:IMethodProxyFactory" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.bytecode.proxy:IAccessorProxyFactory" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeVariable" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:MultinameUtil)" mod="1333197632051" size="5760" optimizedsize="3594">
+      <def id="org.as3commons.bytecode.util:MultinameUtil" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="RegExp" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:BaseBuilder)" mod="1303125099602" size="3908" optimizedsize="2034">
+      <def id="org.as3commons.bytecode.emit.impl:BaseBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IEmitObject" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Method)" mod="1332407293017" size="3788" optimizedsize="1834">
+      <def id="org.as3commons.reflect:Method" />
+      <pre id="org.as3commons.reflect:MetadataContainer" />
+      <pre id="org.as3commons.reflect:INamespaceOwner" />
+      <dep id="org.as3commons.reflect:MethodInvoker" />
+      <dep id="AS3" />
+      <dep id="QName" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect:Parameter" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="org.as3commons.reflect:BaseParameter" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:LoggerFactory)" mod="1317820902511" size="1648" optimizedsize="808">
+      <def id="org.as3commons.logging.api:LoggerFactory" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.logging.api:Logger" />
+      <dep id="org.as3commons.logging.api:ILogSetup" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:Assertions)" mod="1333182283745" size="1706" optimizedsize="1009">
+      <def id="org.as3commons.bytecode.util:Assertions" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.asm:ClassInfoReference)" mod="1333268099519" size="741" optimizedsize="338">
+      <def id="org.as3commons.bytecode.emit.asm:ClassInfoReference" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.utils:StringUtil)" mod="1303837779060" size="2662" optimizedsize="1456">
+      <def id="mx.utils:StringUtil" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="RegExp" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:InterfaceMethodBuilder)" mod="1333200603918" size="2015" optimizedsize="1151">
+      <def id="org.as3commons.bytecode.emit.impl:InterfaceMethodBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:UnsupportedSerializer)" mod="1303125094591" size="1267" optimizedsize="668">
+      <def id="org.as3commons.bytecode.tags.serialization:UnsupportedSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:AbstractTagSerializer" />
+      <dep id="org.as3commons.bytecode.tags:UnsupportedTag" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:RuntimeQualifiedName)" mod="1303125091485" size="1081" optimizedsize="598">
+      <def id="org.as3commons.bytecode.abc:RuntimeQualifiedName" />
+      <pre id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.core:FlexShape)" mod="1303837772404" size="758" optimizedsize="490">
+      <def id="mx.core:FlexShape" />
+      <pre id="flash.display:Shape" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="Error" />
+      <dep id="mx.utils:NameUtil" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:FillStyleSerializer)" mod="1303125094608" size="877" optimizedsize="355">
+      <def id="org.as3commons.bytecode.tags.serialization:FillStyleSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:IStructSerializer" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.typeinfo:Argument)" mod="1333216826747" size="1389" optimizedsize="723">
+      <def id="org.as3commons.bytecode.typeinfo:Argument" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\AspectASBuilder.as" mod="1340280225261" size="1745" optimizedsize="1681">
+      <def id="com.aspectas.core:AspectASBuilder" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="flash.events:Event" />
+      <dep id="com.aspectas.core:AOPFactory" />
+      <dep id="com.aspectas.core:AOPWeaver" />
+      <dep id="com.aspectas.core:LogicWeaverRepresentation" />
+      <dep id="AS3" />
+      <dep id="mx.utils:StringUtil" />
+      <dep id="com.aspectas.core:LogicAspectRepresentation" />
+      <dep id="com.aspectas.core.events:AOPEventComplete" />
+      <dep id="com.aspectas.core:AppDomainContext" />
+      <dep id="com.aspectas.core.events:AOPEventError" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="com.aspectas.core.errors:AOPErrorsContants" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.events:RSLEvent)" mod="1316029806768" size="1355" optimizedsize="835">
+      <def id="mx.events:RSLEvent" />
+      <pre id="flash.events:ProgressEvent" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.net:URLRequest" />
+      <dep id="AS3" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:RGBSerializer)" mod="1303125094613" size="1272" optimizedsize="624">
+      <def id="org.as3commons.bytecode.tags.serialization:RGBSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:AbstractStructSerializer" />
+      <dep id="org.as3commons.bytecode.tags.struct:RGB" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:Opcode)" mod="1333211080815" size="21058" optimizedsize="13213">
+      <def id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.util:ReadWritePair" />
+      <dep id="org.as3commons.bytecode.abc:ByteCodeErrorEvent" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:Integer" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.bytecode.abc:UnsignedInteger" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="trace" />
+      <dep id="org.as3commons.bytecode.abc:JumpTargetData" />
+      <dep id="org.as3commons.bytecode.emit.asm:ClassInfoReference" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\utils\PointcutTypes.as" mod="1337221833454" size="599" optimizedsize="564">
+      <def id="com.aspectas.core.utils:PointcutTypes" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode:as3commons_bytecode)" mod="1303125100670" size="244" optimizedsize="125">
+      <def id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:MethodFlag)" mod="1303125091011" size="1780" optimizedsize="866">
+      <def id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:JumpTargetData)" mod="1333207080104" size="1690" optimizedsize="836">
+      <def id="org.as3commons.bytecode.abc:JumpTargetData" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.core:IFlexModuleFactory)" mod="1316035064450" size="1988" optimizedsize="627">
+      <def id="mx.core:IFlexModuleFactory" />
+      <pre id="Object" />
+      <dep id="mx.core:RSLData" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:ITypeProvider)" mod="1332407293081" size="828" optimizedsize="299">
+      <def id="org.as3commons.reflect:ITypeProvider" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:TypeCache" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:as3commons_reflect)" mod="1332407293057" size="254" optimizedsize="122">
+      <def id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.util:BuildUtil)" mod="1303125100639" size="1124" optimizedsize="717">
+      <def id="org.as3commons.bytecode.emit.util:BuildUtil" />
+      <pre id="Object" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:INamespaceBuilder)" mod="1303125100664" size="1404" optimizedsize="352">
+      <def id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:TypeProviderKind)" mod="1332407293079" size="1432" optimizedsize="788">
+      <def id="org.as3commons.reflect:TypeProviderKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeConstructor)" mod="1320246363542" size="845" optimizedsize="415">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeConstructor" />
+      <pre id="org.as3commons.reflect:Constructor" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:IEquals)" mod="1332358561793" size="450" optimizedsize="180">
+      <def id="org.as3commons.lang:IEquals" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interceptors\AOPInterceptor.as" mod="1340280727249" size="1884" optimizedsize="1816">
+      <def id="com.aspectas.core.interceptors:AOPInterceptor" />
+      <pre id="org.as3commons.bytecode.interception:IInterceptor" />
+      <pre id="Object" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="com.aspectas.core.interfaces:IInterceptContext" />
+      <dep id="com.aspectas.core.interceptors:InterceptContext" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocation" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeParameter)" mod="1320246363529" size="1487" optimizedsize="640">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeParameter" />
+      <pre id="org.as3commons.reflect:BaseParameter" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags:ISWFTag)" mod="1303125094651" size="586" optimizedsize="206">
+      <def id="org.as3commons.bytecode.tags:ISWFTag" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:HashArray)" mod="1332358561730" size="3715" optimizedsize="1867">
+      <def id="org.as3commons.lang:HashArray" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="org.as3commons.lang:ArrayUtils" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:NamedMultiname)" mod="1332956915752" size="1125" optimizedsize="495">
+      <def id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <pre id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:ConstantKind)" mod="1332956915756" size="2736" optimizedsize="1574">
+      <def id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ClassTrait)" mod="1303125091488" size="1249" optimizedsize="706">
+      <def id="org.as3commons.bytecode.abc:ClassTrait" />
+      <pre id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.typeinfo:Annotatable" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\elements\Advice.as" mod="1337221739483" size="1051" optimizedsize="1017">
+      <def id="com.aspectas.core.elements:Advice" />
+      <pre id="com.aspectas.core.interfaces:IAdvice" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="AS3" />
+      <dep id="com.aspectas.core.interfaces:IPointCut" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="com.aspectas.core.elements:PointCut" />
+      <dep id="com.aspectas.core.interfaces:IAspect" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interfaces\IAspect.as" mod="1337221805932" size="393" optimizedsize="393">
+      <def id="com.aspectas.core.interfaces:IAspect" />
+      <pre id="Object" />
+      <dep id="com.aspectas.core.interfaces:IAdvice" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:ExceptionInfoBuilder)" mod="1303125099601" size="743" optimizedsize="365">
+      <def id="org.as3commons.bytecode.emit.impl:ExceptionInfoBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IExceptionInfoBuilder" />
+      <pre id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:MetadataContainer)" mod="1332407293043" size="1561" optimizedsize="794">
+      <def id="org.as3commons.reflect:MetadataContainer" />
+      <pre id="org.as3commons.reflect:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:ILogSetup)" mod="1310650931369" size="610" optimizedsize="196">
+      <def id="org.as3commons.logging.api:ILogSetup" />
+      <pre id="Object" />
+      <dep id="org.as3commons.logging.api:Logger" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:TraitKind)" mod="1332956915760" size="1906" optimizedsize="1011">
+      <def id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IConstructorProxyFactory)" mod="1303125085123" size="1234" optimizedsize="495">
+      <def id="org.as3commons.bytecode.proxy:IConstructorProxyFactory" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.typeinfo:Metadata)" mod="1333210342156" size="1554" optimizedsize="904">
+      <def id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang.util:CloneUtils" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\AOPWeaver.as" mod="1337221845571" size="2314" optimizedsize="2256">
+      <def id="com.aspectas.core:AOPWeaver" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryEvent" />
+      <dep id="com.aspectas.core.interceptors:AOPInterceptor" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:BasicMethodInvocationInterceptor" />
+      <dep id="com.aspectas.core.events:AOPEventComplete" />
+      <dep id="com.aspectas.core:AppDomainContext" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:SWFSpec)" mod="1317468474881" size="7129" optimizedsize="3210">
+      <def id="org.as3commons.bytecode.util:SWFSpec" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.core:IRepeaterClient)" mod="1303837771982" size="1114" optimizedsize="321">
+      <def id="mx.core:IRepeaterClient" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interfaces\IAdvice.as" mod="1337221800581" size="316" optimizedsize="316">
+      <def id="com.aspectas.core.interfaces:IAdvice" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.aspectas.core.interfaces:IPointCut" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:BaseEnum)" mod="1303125090997" size="787" optimizedsize="371">
+      <def id="org.as3commons.bytecode.abc.enum:BaseEnum" />
+      <pre id="Object" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeAccessor)" mod="1320246363539" size="3400" optimizedsize="1504">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <pre id="org.as3commons.reflect:Accessor" />
+      <pre id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.managers:ISystemManager)" mod="1303837776748" size="3302" optimizedsize="1012">
+      <def id="mx.managers:ISystemManager" />
+      <pre id="mx.core:IFlexModuleFactory" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="mx.core:IChildList" />
+      <pre id="Object" />
+      <dep id="flash.text:TextFormat" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="flash.display:Stage" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\elements\PointCut.as" mod="1337221749340" size="1261" optimizedsize="1234">
+      <def id="com.aspectas.core.elements:PointCut" />
+      <pre id="com.aspectas.core.interfaces:IPointCut" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.aspectas.core.utils:PointcutValidator" />
+      <dep id="com.aspectas.core.interfaces:IAspect" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.error:ProxyBuildError)" mod="1333183968651" size="2783" optimizedsize="2127">
+      <def id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <pre id="Error" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:IStructSerializer)" mod="1303125094601" size="840" optimizedsize="287">
+      <def id="org.as3commons.bytecode.tags.serialization:IStructSerializer" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:MemberInfo)" mod="1315949726758" size="1020" optimizedsize="441">
+      <def id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="QName" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:JSONTypeProvider)" mod="1332407293055" size="6332" optimizedsize="3906">
+      <def id="org.as3commons.reflect:JSONTypeProvider" />
+      <pre id="org.as3commons.reflect:AbstractTypeProvider" />
+      <dep id="org.as3commons.reflect:MetadataContainer" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.reflect:MetadataArgument" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect:INamespaceOwner" />
+      <dep id="org.as3commons.reflect:Accessor" />
+      <dep id="avmplus:DescribeType" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.reflect:Constructor" />
+      <dep id="org.as3commons.reflect:Constant" />
+      <dep id="org.as3commons.reflect:Variable" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:IMember" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.reflect:IMetadataContainer" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.reflect:BaseParameter" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:XmlTypeProvider)" mod="1332407293009" size="6650" optimizedsize="3874">
+      <def id="org.as3commons.reflect:XmlTypeProvider" />
+      <pre id="org.as3commons.reflect:AbstractTypeProvider" />
+      <dep id="org.as3commons.reflect:ReflectionUtils" />
+      <dep id="org.as3commons.reflect:MetadataContainer" />
+      <dep id="org.as3commons.reflect:MetadataArgument" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect:INamespaceOwner" />
+      <dep id="org.as3commons.reflect:Accessor" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="XMLList" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.reflect:Constructor" />
+      <dep id="org.as3commons.reflect:Constant" />
+      <dep id="org.as3commons.reflect:Variable" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:IMember" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.reflect:IMetadataContainer" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="XML" />
+      <dep id="org.as3commons.reflect:BaseParameter" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Type)" mod="1332407293035" size="9648" optimizedsize="4555">
+      <def id="org.as3commons.reflect:Type" />
+      <pre id="org.as3commons.reflect:MetadataContainer" />
+      <dep id="org.as3commons.reflect:ITypeProvider" />
+      <dep id="org.as3commons.reflect:JSONTypeProvider" />
+      <dep id="trace" />
+      <dep id="org.as3commons.reflect:Field" />
+      <dep id="org.as3commons.lang:ClassNotFoundError" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.reflect:Constructor" />
+      <dep id="org.as3commons.reflect:XmlTypeProvider" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.reflect:TypeProviderKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.asm:TokenKind)" mod="1303125094929" size="1604" optimizedsize="900">
+      <def id="org.as3commons.bytecode.emit.asm:TokenKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.swf:AbcClassLoader)" mod="1333229224908" size="2979" optimizedsize="1901">
+      <def id="org.as3commons.bytecode.swf:AbcClassLoader" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="flash.utils:Endian" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.display:Loader" />
+      <dep id="org.as3commons.bytecode.io:AbcSerializer" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.system:LoaderContext" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\core.swc(mx.core:RSLData)" mod="1303837772826" size="1656" optimizedsize="839">
+      <def id="mx.core:RSLData" />
+      <pre id="Object" />
+      <dep id="mx.core:IFlexModuleFactory" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.event:AccessorBuilderEvent)" mod="1303125095042" size="1652" optimizedsize="790">
+      <def id="org.as3commons.bytecode.emit.event:AccessorBuilderEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Variable)" mod="1332407293048" size="875" optimizedsize="414">
+      <def id="org.as3commons.reflect:Variable" />
+      <pre id="org.as3commons.reflect:Field" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:AbstractMember" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:FillStyleType)" mod="1303125093714" size="1499" optimizedsize="893">
+      <def id="org.as3commons.bytecode.tags.struct:FillStyleType" />
+      <pre id="org.as3commons.bytecode.abc.enum:BaseEnum" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interceptors\InterceptContext.as" mod="1337221787510" size="1039" optimizedsize="1032">
+      <def id="com.aspectas.core.interceptors:InterceptContext" />
+      <pre id="com.aspectas.core.interfaces:IInterceptContext" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang.util:CloneUtils)" mod="1332358561714" size="1155" optimizedsize="664">
+      <def id="org.as3commons.lang.util:CloneUtils" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.lang:ICloneable" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception:IMethodInvocationInterceptor)" mod="1316597399601" size="828" optimizedsize="349">
+      <def id="org.as3commons.bytecode.interception:IMethodInvocationInterceptor" />
+      <pre id="Object" />
+      <dep id="QName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:MultinameG)" mod="1333216423194" size="2315" optimizedsize="1220">
+      <def id="org.as3commons.bytecode.abc:MultinameG" />
+      <pre id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.lang:IEquals" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.event:ProxyCreationEvent)" mod="1303125084828" size="1091" optimizedsize="595">
+      <def id="org.as3commons.bytecode.proxy.event:ProxyCreationEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptor" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:SymbolSerializer)" mod="1303125094607" size="1131" optimizedsize="580">
+      <def id="org.as3commons.bytecode.tags.serialization:SymbolSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:AbstractStructSerializer" />
+      <dep id="org.as3commons.bytecode.tags.struct:Symbol" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MethodBuilder)" mod="1333269281275" size="9049" optimizedsize="4771">
+      <def id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:EmitMember" />
+      <pre id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Argument" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.util:EmitUtil" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit:IExceptionInfoBuilder" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodBodyBuilder" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodArgument" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IClassBuilder)" mod="1303125100652" size="2246" optimizedsize="603">
+      <def id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="org.as3commons.bytecode.emit:ITypeBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:UnsignedInteger)" mod="1303125091501" size="471" optimizedsize="199">
+      <def id="org.as3commons.bytecode.abc:UnsignedInteger" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:AbcBuilder)" mod="1333276516953" size="10067" optimizedsize="5718">
+      <def id="org.as3commons.bytecode.emit.impl:AbcBuilder" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="org.as3commons.bytecode.emit:IAbcBuilder" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.bytecode.emit.impl:PackageBuilder" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:ClassTrait" />
+      <dep id="org.as3commons.bytecode.swf:AbcClassLoader" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.io:AbcSerializer" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+      <dep id="org.as3commons.bytecode.abc:ScriptInfo" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.emit:IPackageBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodBodyBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags:UnsupportedTag)" mod="1303125094651" size="801" optimizedsize="353">
+      <def id="org.as3commons.bytecode.tags:UnsupportedTag" />
+      <pre id="org.as3commons.bytecode.tags:AbstractTag" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:Symbol)" mod="1303125093709" size="983" optimizedsize="385">
+      <def id="org.as3commons.bytecode.tags.struct:Symbol" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeTypeProvider)" mod="1320503772104" size="4545" optimizedsize="2683">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeTypeProvider" />
+      <pre id="org.as3commons.reflect:AbstractTypeProvider" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.reflect:ReflectionDeserializer" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.reflect:ClassMetadataDeserializer" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeTypeCache" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.swf.event:SWFFileIOEvent)" mod="1303125083101" size="1170" optimizedsize="576">
+      <def id="org.as3commons.bytecode.swf.event:SWFFileIOEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags.serialization:ITagSerializer" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.utils:GraphicsUtil)" mod="1303837778982" size="2554" optimizedsize="1443">
+      <def id="mx.utils:GraphicsUtil" />
+      <pre id="Object" />
+      <dep id="flash.display:Graphics" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ScriptInfo)" mod="1333210360434" size="1493" optimizedsize="867">
+      <def id="org.as3commons.bytecode.abc:ScriptInfo" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:MethodProxyFactory)" mod="1320051410069" size="4146" optimizedsize="3141">
+      <def id="org.as3commons.bytecode.proxy.impl:MethodProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractMethodBodyFactory" />
+      <pre id="org.as3commons.bytecode.proxy:IMethodProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeParameter" />
+      <dep id="org.as3commons.logging.api:getLogger" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.swf:ISWFFileIO)" mod="1303125083564" size="1007" optimizedsize="385">
+      <def id="org.as3commons.bytecode.swf:ISWFFileIO" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.swf:SWFFile" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags.serialization:ITagSerializer" />
+      <dep id="org.as3commons.bytecode.swf.event:SWFFileIOEvent" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:Assert)" mod="1332358561789" size="3519" optimizedsize="2159">
+      <def id="org.as3commons.lang:Assert" />
+      <pre id="Object" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="org.as3commons.lang:IllegalArgumentError" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.lang:IllegalStateError" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:IMember)" mod="1332407293026" size="699" optimizedsize="244">
+      <def id="org.as3commons.reflect:IMember" />
+      <pre id="org.as3commons.reflect:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:ProxyInfo)" mod="1303125084625" size="1096" optimizedsize="642">
+      <def id="org.as3commons.bytecode.proxy.impl:ProxyInfo" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptorFactory" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interfaces\IInterceptContext.as" mod="1337221814868" size="468" optimizedsize="468">
+      <def id="com.aspectas.core.interfaces:IInterceptContext" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.util:toLogName)" mod="1317502745585" size="548" optimizedsize="224">
+      <def id="org.as3commons.logging.util:toLogName" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="String" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:InterfaceAccessorBuilder)" mod="1303125099608" size="1929" optimizedsize="976">
+      <def id="org.as3commons.bytecode.emit.impl:InterfaceAccessorBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:AccessorBuilder" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.emit.impl:InterfaceMethodBuilder" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception:IMethodInvocationInterceptorFactory)" mod="1303125085589" size="717" optimizedsize="250">
+      <def id="org.as3commons.bytecode.interception:IMethodInvocationInterceptorFactory" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:IConstantPool)" mod="1333181680660" size="5595" optimizedsize="1290">
+      <def id="org.as3commons.bytecode.abc:IConstantPool" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:EmitMember)" mod="1333232017444" size="2363" optimizedsize="1130">
+      <def id="org.as3commons.bytecode.emit.impl:EmitMember" />
+      <pre id="org.as3commons.bytecode.emit:IEmitMember" />
+      <pre id="org.as3commons.bytecode.emit.impl:BaseBuilder" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:SlotOrConstantTrait)" mod="1333216715933" size="2057" optimizedsize="1240">
+      <def id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <pre id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.typeinfo:Annotatable" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.lang:ICloneable" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:IVisibleMember)" mod="1303125090121" size="639" optimizedsize="296">
+      <def id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <pre id="org.as3commons.reflect:INamespaceOwner" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:ClassBuilder)" mod="1333271039305" size="9756" optimizedsize="5736">
+      <def id="org.as3commons.bytecode.emit.impl:ClassBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:BaseTypeBuilder" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.util:EmitUtil" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit.impl:AccessorBuilder" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.bytecode.emit.impl:PropertyBuilder" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.emit.impl:CtorBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception.impl:BasicMethodInvocationInterceptor)" mod="1333109970454" size="2363" optimizedsize="1247">
+      <def id="org.as3commons.bytecode.interception.impl:BasicMethodInvocationInterceptor" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="org.as3commons.bytecode.interception:IMethodInvocationInterceptor" />
+      <dep id="org.as3commons.bytecode.interception:IInterceptor" />
+      <dep id="QName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:BasicMethodInvocation" />
+      <dep id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocation" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IEmitMember)" mod="1303125100657" size="1166" optimizedsize="312">
+      <def id="org.as3commons.bytecode.emit:IEmitMember" />
+      <pre id="org.as3commons.bytecode.emit:IEmitObject" />
+      <pre id="org.as3commons.bytecode.emit:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:AbstractMethodBodyFactory)" mod="1316597399536" size="3217" optimizedsize="2313">
+      <def id="org.as3commons.bytecode.proxy.impl:AbstractMethodBodyFactory" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractProxyFactory" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.emit:IEmitObject" />
+      <dep id="org.as3commons.bytecode.abc:RuntimeQualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:AbstractStructSerializer)" mod="1303125094612" size="984" optimizedsize="436">
+      <def id="org.as3commons.bytecode.tags.serialization:AbstractStructSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:IStructSerializer" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Accessor)" mod="1332407293076" size="2469" optimizedsize="1270">
+      <def id="org.as3commons.reflect:Accessor" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.reflect:Field" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:AbstractMember" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:RGBA)" mod="1303125093716" size="710" optimizedsize="297">
+      <def id="org.as3commons.bytecode.tags.struct:RGBA" />
+      <pre id="org.as3commons.bytecode.tags.struct:RGB" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ByteCodeErrorEvent)" mod="1303125091490" size="1158" optimizedsize="579">
+      <def id="org.as3commons.bytecode.abc:ByteCodeErrorEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Metadata)" mod="1332407293021" size="2728" optimizedsize="1354">
+      <def id="org.as3commons.reflect:Metadata" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:MetadataArgument" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect.util:CacheUtil" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.io:MethodBodyExtractionKind)" mod="1332956915802" size="1499" optimizedsize="766">
+      <def id="org.as3commons.bytecode.io:MethodBodyExtractionKind" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:ReadWritePair)" mod="1303125093572" size="1133" optimizedsize="486">
+      <def id="org.as3commons.bytecode.util:ReadWritePair" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\LogicAspectRepresentation.as" mod="1340283399422" size="1554" optimizedsize="1465">
+      <def id="com.aspectas.core:LogicAspectRepresentation" />
+      <pre id="Object" />
+      <dep id="com.aspectas.core.elements:Advice" />
+      <dep id="org.as3commons.reflect:Method" />
+      <dep id="com.aspectas.core.utils:PointcutTypes" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="com.aspectas.core.elements:Aspect" />
+      <dep id="com.aspectas.core.utils:AdviceTypes" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="com.aspectas.core:AppDomainContext" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\AppDomainContext.as" mod="1337221849304" size="534" optimizedsize="530">
+      <def id="com.aspectas.core:AppDomainContext" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.setup:ILogTarget)" mod="1310650907654" size="712" optimizedsize="230">
+      <def id="org.as3commons.logging.setup:ILogTarget" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:ICtorBuilder)" mod="1303125100653" size="352" optimizedsize="140">
+      <def id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:BaseTypeInfo)" mod="1333210382088" size="3156" optimizedsize="1593">
+      <def id="org.as3commons.bytecode.abc:BaseTypeInfo" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IMetadataContainer)" mod="1303125100655" size="900" optimizedsize="289">
+      <def id="org.as3commons.bytecode.emit:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.swf:SWFFile)" mod="1303125083564" size="3221" optimizedsize="1526">
+      <def id="org.as3commons.bytecode.swf:SWFFile" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.swf:SWFWeaverFileIO" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+      <dep id="org.as3commons.bytecode.tags:DoABCTag" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\utils\AdviceTypes.as" mod="1337221826163" size="469" optimizedsize="440">
+      <def id="com.aspectas.core.utils:AdviceTypes" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:EmitUtil)" mod="1303983371720" size="1305" optimizedsize="821">
+      <def id="org.as3commons.bytecode.util:EmitUtil" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IMethodBodyBuilder)" mod="1333200529676" size="3346" optimizedsize="795">
+      <def id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit:IExceptionInfoBuilder" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\locale\en_US\automation_agent_rb.swc(mx.core:mx_internal)" mod="1314174884728" size="182" optimizedsize="109">
+      <def id="mx.core:mx_internal" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:AccessorProxyFactory)" mod="1333021963412" size="7978" optimizedsize="5465">
+      <def id="org.as3commons.bytecode.proxy.impl:AccessorProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy:IAccessorProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractMethodBodyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <dep id="org.as3commons.bytecode.abc:RuntimeQualifiedName" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode_proxy" />
+      <dep id="org.as3commons.bytecode.emit.event:AccessorBuilderEvent" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="org.as3commons.logging.api:getLogger" />
+      <dep id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:BaseTypeBuilder)" mod="1333210718707" size="9660" optimizedsize="5643">
+      <def id="org.as3commons.bytecode.emit.impl:BaseTypeBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:BaseBuilder" />
+      <pre id="org.as3commons.bytecode.emit:ITypeBuilder" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.emit.impl:AccessorBuilder" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.emit.impl:MethodBuilder" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+      <dep id="org.as3commons.bytecode.emit.impl:CtorBuilder" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:MultinameKind)" mod="1332956915758" size="2061" optimizedsize="1155">
+      <def id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.typeinfo:Annotatable)" mod="1333231982886" size="1611" optimizedsize="844">
+      <def id="org.as3commons.bytecode.typeinfo:Annotatable" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IClassIntroducer)" mod="1332956915618" size="727" optimizedsize="342">
+      <def id="org.as3commons.bytecode.proxy:IClassIntroducer" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:FunctionTrait)" mod="1303125091500" size="1284" optimizedsize="704">
+      <def id="org.as3commons.bytecode.abc:FunctionTrait" />
+      <pre id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.typeinfo:Annotatable" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IAbcBuilder)" mod="1303125100662" size="1777" optimizedsize="602">
+      <def id="org.as3commons.bytecode.emit:IAbcBuilder" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.emit:IPackageBuilder" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MethodBodyBuilder)" mod="1333206329647" size="11988" optimizedsize="7635">
+      <def id="org.as3commons.bytecode.emit.impl:MethodBodyBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IMethodBodyBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:JumpTargetData" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.emit.impl:ExceptionInfoBuilder" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <dep id="org.as3commons.bytecode.emit:IExceptionInfoBuilder" />
+      <dep id="org.as3commons.bytecode.emit.asm:Asm" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.preloaders:SparkDownloadProgressBar)" mod="1303837780279" size="12758" optimizedsize="6814">
+      <def id="mx.preloaders:SparkDownloadProgressBar" />
+      <pre id="mx.preloaders:IPreloaderDisplay" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.events:Event" />
+      <dep id="mx.graphics:RectangularDropShadow" />
+      <dep id="Math" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.display:Graphics" />
+      <dep id="flash.text:TextFormat" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Matrix" />
+      <dep id="flash.utils:getDefinitionByName" />
+      <dep id="mx.events:FlexEvent" />
+      <dep id="flash.geom:ColorTransform" />
+      <dep id="flash.text:TextFieldAutoSize" />
+      <dep id="flash.net:URLRequest" />
+      <dep id="mx.events:RSLEvent" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.display:Loader" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="Error" />
+      <dep id="mx.managers:ISystemManager" />
+      <dep id="flash.events:ProgressEvent" />
+      <dep id="flash.text:TextField" />
+      <dep id="flash.system:Capabilities" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="flash.system:LoaderContext" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:InstanceInfo)" mod="1333210350937" size="2230" optimizedsize="1372">
+      <def id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <pre id="org.as3commons.bytecode.abc:BaseTypeInfo" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\events\AOPEventError.as" mod="1337221776532" size="384" optimizedsize="374">
+      <def id="com.aspectas.core.events:AOPEventError" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:Logger)" mod="1318514124231" size="2987" optimizedsize="1377">
+      <def id="org.as3commons.logging.api:Logger" />
+      <pre id="org.as3commons.logging.api:ILogger" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="org.as3commons.logging.setup:ILogTarget" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IEmitObject)" mod="1303125100656" size="1958" optimizedsize="460">
+      <def id="org.as3commons.bytecode.emit:IEmitObject" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:ICloneable)" mod="1332358561769" size="434" optimizedsize="155">
+      <def id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\utils\PointcutValidator.as" mod="1337221837789" size="1295" optimizedsize="1231">
+      <def id="com.aspectas.core.utils:PointcutValidator" />
+      <pre id="Object" />
+      <dep id="com.aspectas.core.utils:PointcutTypes" />
+      <dep id="AS3" />
+      <dep id="RegExp" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeType)" mod="1320246363536" size="9258" optimizedsize="4568">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <pre id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect:ITypeProvider" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.bytecode.reflect:PlayerGlobalData" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeTypeProvider" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeTypeCache" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeConstant" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeVariable" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:MetadataArgument)" mod="1332407293038" size="1555" optimizedsize="677">
+      <def id="org.as3commons.reflect:MetadataArgument" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeTypeCache)" mod="1320503763101" size="3155" optimizedsize="1658">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeTypeCache" />
+      <pre id="org.as3commons.reflect:TypeCache" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode:as3commons_bytecode_proxy)" mod="1303125100671" size="261" optimizedsize="136">
+      <def id="org.as3commons.bytecode:as3commons_bytecode_proxy" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:ReflectionUtils)" mod="1332407293087" size="2260" optimizedsize="1400">
+      <def id="org.as3commons.reflect:ReflectionUtils" />
+      <pre id="Object" />
+      <dep id="flash.utils:describeType" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="flash.system:Capabilities" />
+      <dep id="org.as3commons.reflect:IMetadataContainer" />
+      <dep id="XML" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="XMLList" />
+      <dep id="Error" />
+    </script>
+    <script name="_3be316c099260ba1d4e6a645d31e3e9b518e6c96ac0b86504526d919907413d3_flash_display_Sprite.as" mod="1340305489362" size="601" optimizedsize="562">
+      <def id="_3be316c099260ba1d4e6a645d31e3e9b518e6c96ac0b86504526d919907413d3_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.system:Security" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception.impl:BasicMethodInvocation)" mod="1333021963440" size="2847" optimizedsize="1254">
+      <def id="org.as3commons.bytecode.interception.impl:BasicMethodInvocation" />
+      <pre id="Object" />
+      <pre id="org.as3commons.bytecode.interception:IMethodInvocation" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="QName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:BaseMultiname)" mod="1333197244635" size="1811" optimizedsize="954">
+      <def id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:InterfaceBuilder)" mod="1333210733218" size="3066" optimizedsize="2115">
+      <def id="org.as3commons.bytecode.emit.impl:InterfaceBuilder" />
+      <pre id="org.as3commons.bytecode.emit.impl:BaseTypeBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.emit.impl:ClassBuilder" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.emit.impl:InterfaceAccessorBuilder" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeMethod)" mod="1320246363532" size="4966" optimizedsize="2007">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <pre id="org.as3commons.reflect:Method" />
+      <pre id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.asm:AsmToken)" mod="1303125094927" size="754" optimizedsize="320">
+      <def id="org.as3commons.bytecode.emit.asm:AsmToken" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.asm:TokenKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:AccessorAccess)" mod="1332407293045" size="1355" optimizedsize="750">
+      <def id="org.as3commons.reflect:AccessorAccess" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\interfaces\IPointCut.as" mod="1337221818885" size="275" optimizedsize="275">
+      <def id="com.aspectas.core.interfaces:IPointCut" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError)" mod="1303125096095" size="1373" optimizedsize="654">
+      <def id="org.as3commons.bytecode.emit.impl.event:ExtendedClassesNotFoundError" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:MethodTrait)" mod="1333212429694" size="1513" optimizedsize="860">
+      <def id="org.as3commons.bytecode.abc:MethodTrait" />
+      <pre id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IAccessorBuilder)" mod="1303125100651" size="1421" optimizedsize="360">
+      <def id="org.as3commons.bytecode.emit:IAccessorBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.event:AccessorBuilderEvent" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:IllegalArgumentError)" mod="1332358561738" size="526" optimizedsize="226">
+      <def id="org.as3commons.lang:IllegalArgumentError" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IClassProxyInfo)" mod="1315949726807" size="4537" optimizedsize="1005">
+      <def id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.proxy:ProxyScope" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptorFactory" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:StringUtils)" mod="1332358561754" size="20384" optimizedsize="9727">
+      <def id="org.as3commons.lang:StringUtils" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="RegExp" />
+      <dep id="org.as3commons.lang:IllegalArgumentError" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:MethodInvoker)" mod="1332407293012" size="2592" optimizedsize="1321">
+      <def id="org.as3commons.reflect:MethodInvoker" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.reflect:INamespaceOwner" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="QName" />
+      <dep id="flash.utils:flash_proxy" />
+      <dep id="flash.utils:Proxy" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:AbstractMember)" mod="1332407293066" size="4125" optimizedsize="2013">
+      <def id="org.as3commons.reflect:AbstractMember" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.reflect:MetadataContainer" />
+      <pre id="org.as3commons.reflect:IMember" />
+      <pre id="org.as3commons.reflect:INamespaceOwner" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="QName" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.reflect.util:CacheUtil" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Field)" mod="1332407293040" size="973" optimizedsize="556">
+      <def id="org.as3commons.reflect:Field" />
+      <pre id="org.as3commons.reflect:AbstractMember" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.lang:HashArray" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:IAccessorProxyFactory)" mod="1315949726805" size="929" optimizedsize="488">
+      <def id="org.as3commons.bytecode.proxy:IAccessorProxyFactory" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:AbstractTypeProvider)" mod="1332407293024" size="1061" optimizedsize="503">
+      <def id="org.as3commons.reflect:AbstractTypeProvider" />
+      <pre id="org.as3commons.reflect:ITypeProvider" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:TypeCache" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:NamespaceKind)" mod="1315949726890" size="2381" optimizedsize="1286">
+      <def id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ExceptionInfo)" mod="1333218089336" size="1762" optimizedsize="1102">
+      <def id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:NamespaceSet)" mod="1303125091487" size="1585" optimizedsize="807">
+      <def id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang.util:CloneUtils" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MemberInitialization)" mod="1303125099600" size="822" optimizedsize="405">
+      <def id="org.as3commons.bytecode.emit.impl:MemberInitialization" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:ITagSerializer)" mod="1303125094580" size="1129" optimizedsize="431">
+      <def id="org.as3commons.bytecode.tags.serialization:ITagSerializer" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.tags.serialization:IStructSerializerFactory" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:AbstractTagSerializer)" mod="1303125094603" size="1338" optimizedsize="644">
+      <def id="org.as3commons.bytecode.tags.serialization:AbstractTagSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:ITagSerializer" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.tags.serialization:IStructSerializerFactory" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags:ISWFTag" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:ILogger)" mod="1310650931368" size="2029" optimizedsize="473">
+      <def id="org.as3commons.logging.api:ILogger" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:INamespaceOwner)" mod="1332407293014" size="526" optimizedsize="196">
+      <def id="org.as3commons.reflect:INamespaceOwner" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:MethodBody)" mod="1333217019222" size="3392" optimizedsize="2215">
+      <def id="org.as3commons.bytecode.abc:MethodBody" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:JumpTargetData" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.enum:MemberVisibility)" mod="1303125100607" size="1572" optimizedsize="943">
+      <def id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <pre id="org.as3commons.bytecode.abc.enum:BaseEnum" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:RuntimeQualifiedNameL)" mod="1303125091478" size="964" optimizedsize="490">
+      <def id="org.as3commons.bytecode.abc:RuntimeQualifiedNameL" />
+      <pre id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:QualifiedName)" mod="1303125091508" size="1950" optimizedsize="1014">
+      <def id="org.as3commons.bytecode.abc:QualifiedName" />
+      <pre id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:IMetadataContainer)" mod="1332407293069" size="1135" optimizedsize="339">
+      <def id="org.as3commons.reflect:IMetadataContainer" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:Metadata" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(org.as3commons.reflect:Parameter)" mod="1332407293019" size="849" optimizedsize="367">
+      <def id="org.as3commons.reflect:Parameter" />
+      <pre id="Object" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:BaseParameter" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.preloaders:IPreloaderDisplay)" mod="1303837780342" size="1994" optimizedsize="508">
+      <def id="mx.preloaders:IPreloaderDisplay" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\preload\AspectASPreload.as" mod="1340280192021" size="1542" optimizedsize="1489">
+      <def id="com.aspectas.core.preload:AspectASPreload" />
+      <pre id="mx.preloaders:SparkDownloadProgressBar" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.events:ProgressEvent" />
+      <dep id="AS3" />
+      <dep id="mx.core:FlexGlobals" />
+      <dep id="mx.events:RSLEvent" />
+      <dep id="com.aspectas.core.events:AOPEventComplete" />
+      <dep id="com.aspectas.core:AppDomainContext" />
+      <dep id="com.aspectas.core:AspectASBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.io:AbstractAbcDeserializer)" mod="1333222308326" size="8658" optimizedsize="5357">
+      <def id="org.as3commons.bytecode.io:AbstractAbcDeserializer" />
+      <pre id="Object" />
+      <pre id="org.as3commons.bytecode.io:IAbcDeserializer" />
+      <dep id="org.as3commons.bytecode.abc:RuntimeQualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:RuntimeQualifiedNameL" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:MultinameL" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.io:MethodBodyExtractionKind" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:MethodInfo)" mod="1333212493513" size="3368" optimizedsize="1948">
+      <def id="org.as3commons.bytecode.abc:MethodInfo" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Argument" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.lang:IllegalArgumentError" />
+      <dep id="org.as3commons.bytecode.abc:FunctionTrait" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\src\com\aspectas\core\AOPFactory.as" mod="1337221841644" size="465" optimizedsize="454">
+      <def id="com.aspectas.core:AOPFactory" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:NamespaceBuilder)" mod="1303125099611" size="1926" optimizedsize="976">
+      <def id="org.as3commons.bytecode.emit.impl:NamespaceBuilder" />
+      <pre id="org.as3commons.bytecode.emit:INamespaceBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc.enum:BuiltIns" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:AbcFileUtil)" mod="1333201399733" size="5271" optimizedsize="3426">
+      <def id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:ConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.swf:SWFFile" />
+      <dep id="flash.utils:Endian" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags:DoABCTag" />
+      <dep id="flash.utils:getDefinitionByName" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.lang:ICloneable" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.event:ProxyFactoryEvent)" mod="1303125084829" size="1925" optimizedsize="924">
+      <def id="org.as3commons.bytecode.proxy.event:ProxyFactoryEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptor" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ConstantPool)" mod="1333183574761" size="12439" optimizedsize="6301">
+      <def id="org.as3commons.bytecode.abc:ConstantPool" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.bytecode.abc:IConstantPool" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.util:StringLookup" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.abc:NamedMultiname" />
+      <dep id="org.as3commons.bytecode.util:Assertions" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\framework.swc(mx.core:IChildList)" mod="1303837772795" size="1369" optimizedsize="497">
+      <def id="mx.core:IChildList" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="flash.geom:Point" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:TraitInfo)" mod="1333211868874" size="1510" optimizedsize="832">
+      <def id="org.as3commons.bytecode.abc:TraitInfo" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.bytecode.typeinfo:Annotatable" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:RecordHeader)" mod="1303125093712" size="976" optimizedsize="392">
+      <def id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IExceptionInfoBuilder)" mod="1303125100654" size="605" optimizedsize="247">
+      <def id="org.as3commons.bytecode.emit:IExceptionInfoBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:StructSerializerFactory)" mod="1303125094614" size="1487" optimizedsize="845">
+      <def id="org.as3commons.bytecode.tags.serialization:StructSerializerFactory" />
+      <pre id="org.as3commons.bytecode.tags.serialization:IStructSerializerFactory" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.tags.struct:RGB" />
+      <dep id="org.as3commons.bytecode.tags.struct:Symbol" />
+      <dep id="org.as3commons.bytecode.tags.serialization:RGBASerializer" />
+      <dep id="org.as3commons.bytecode.tags.serialization:IStructSerializer" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.tags.serialization:RGBSerializer" />
+      <dep id="org.as3commons.bytecode.tags.struct:RGBA" />
+      <dep id="org.as3commons.bytecode.tags.serialization:FillStyleSerializer" />
+      <dep id="org.as3commons.bytecode.tags.struct:FillStyle" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.tags.serialization:SymbolSerializer" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.asm:Asm)" mod="1303983199142" size="11588" optimizedsize="7749">
+      <def id="org.as3commons.bytecode.emit.asm:Asm" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.emit.asm:TokenKind" />
+      <dep id="org.as3commons.bytecode.abc:JumpTargetData" />
+      <dep id="org.as3commons.bytecode.emit.asm:ClassInfoReference" />
+      <dep id="RegExp" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.emit.asm:AsmToken" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:MultinameL)" mod="1303125091484" size="1481" optimizedsize="774">
+      <def id="org.as3commons.bytecode.abc:MultinameL" />
+      <pre id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:ProxyFactory)" mod="1333228523914" size="20320" optimizedsize="12869">
+      <def id="org.as3commons.bytecode.proxy.impl:ProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy:IProxyFactory" />
+      <pre id="org.as3commons.bytecode.proxy.impl:AbstractProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ClassProxyInfo" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.emit:ICtorBuilder" />
+      <dep id="Math" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.emit:IAbcBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ClassIntroducer" />
+      <dep id="org.as3commons.logging.api:getLogger" />
+      <dep id="org.as3commons.bytecode.proxy:IMethodProxyFactory" />
+      <dep id="org.as3commons.bytecode.interception.impl:BasicMethodInvocationInterceptor" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptor" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyCreationEvent" />
+      <dep id="org.as3commons.bytecode.proxy.error:ProxyBuildError" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="org.as3commons.bytecode.emit:IPackageBuilder" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="org.as3commons.bytecode.proxy:IClassIntroducer" />
+      <dep id="org.as3commons.bytecode.emit:IPropertyBuilder" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MethodProxyFactory" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ConstructorProxyFactory" />
+      <dep id="org.as3commons.bytecode.proxy.impl:ProxyInfo" />
+      <dep id="org.as3commons.bytecode.proxy.impl:AccessorProxyFactory" />
+      <dep id="flash.events:Event" />
+      <dep id="org.as3commons.reflect:Accessor" />
+      <dep id="org.as3commons.bytecode.emit.impl:AbcBuilder" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.proxy:IConstructorProxyFactory" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.reflect:MetadataContainer" />
+      <dep id="org.as3commons.bytecode.proxy:IAccessorProxyFactory" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode_proxy" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <dep id="org.as3commons.bytecode.proxy.event:ProxyFactoryEvent" />
+      <dep id="org.as3commons.bytecode.proxy:ProxyScope" />
+      <dep id="org.as3commons.bytecode.emit.enum:MemberVisibility" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.io:IAbcDeserializer)" mod="1333199672013" size="2570" optimizedsize="772">
+      <def id="org.as3commons.bytecode.io:IAbcDeserializer" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.io:MethodBodyExtractionKind" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:IStructSerializerFactory)" mod="1303125094582" size="732" optimizedsize="279">
+      <def id="org.as3commons.bytecode.tags.serialization:IStructSerializerFactory" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.tags.serialization:IStructSerializer" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy:ProxyScope)" mod="1320246363381" size="1595" optimizedsize="927">
+      <def id="org.as3commons.bytecode.proxy:ProxyScope" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MetadataArgument)" mod="1303125099604" size="1029" optimizedsize="384">
+      <def id="org.as3commons.bytecode.emit.impl:MetadataArgument" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:ClassProxyInfo)" mod="1333186315214" size="5498" optimizedsize="2407">
+      <def id="org.as3commons.bytecode.proxy.impl:ClassProxyInfo" />
+      <pre id="org.as3commons.bytecode.proxy:IClassProxyInfo" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.proxy:ProxyScope" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocationInterceptorFactory" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="org.as3commons.bytecode.proxy.impl:MemberInfo" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="org.as3commons.lang:ClassUtils" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-reflect-1.6.0.swc(avmplus:DescribeType)" mod="1332407293174" size="1605" optimizedsize="993">
+      <def id="avmplus:DescribeType" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception:IMethodInvocation)" mod="1303125085582" size="1957" optimizedsize="486">
+      <def id="org.as3commons.bytecode.interception:IMethodInvocation" />
+      <pre id="Object" />
+      <dep id="QName" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception.impl:InvocationKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.util:StringLookup)" mod="1315950341531" size="1672" optimizedsize="883">
+      <def id="org.as3commons.bytecode.util:StringLookup" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:LNamespace)" mod="1333198200442" size="1741" optimizedsize="983">
+      <def id="org.as3commons.bytecode.abc:LNamespace" />
+      <pre id="org.as3commons.lang:IEquals" />
+      <pre id="org.as3commons.lang:ICloneable" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.interception:IInterceptor)" mod="1303125085583" size="595" optimizedsize="235">
+      <def id="org.as3commons.bytecode.interception:IInterceptor" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.interception:IMethodInvocation" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ByteCodeConstant)" mod="1320246363554" size="2643" optimizedsize="1199">
+      <def id="org.as3commons.bytecode.reflect:ByteCodeConstant" />
+      <pre id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <pre id="org.as3commons.reflect:Constant" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:AbcFile)" mod="1333181520943" size="6193" optimizedsize="2999">
+      <def id="org.as3commons.bytecode.abc:AbcFile" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ScriptInfo" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:ConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode.emit.asm:ClassInfoReference" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.reflect:ReflectionDeserializer)" mod="1332956915643" size="22405" optimizedsize="15059">
+      <def id="org.as3commons.bytecode.reflect:ReflectionDeserializer" />
+      <pre id="org.as3commons.bytecode.io:AbstractAbcDeserializer" />
+      <dep id="org.as3commons.bytecode.abc:SimpleConstantPool" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="org.as3commons.reflect:MetadataArgument" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.util:AbcFileUtil" />
+      <dep id="org.as3commons.reflect:Type" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeType" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeParameter" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.tags.serialization:RecordHeaderSerializer" />
+      <dep id="org.as3commons.reflect:as3commons_reflect" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.reflect:AccessorAccess" />
+      <dep id="org.as3commons.bytecode.abc.enum:ClassConstant" />
+      <dep id="org.as3commons.reflect:MetadataContainer" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeMethod" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeConstructor" />
+      <dep id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeTypeCache" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitAttributes" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc.enum:NamespaceKind" />
+      <dep id="org.as3commons.bytecode.swf:SWFWeaverFileIO" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="flash.utils:Endian" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeAccessor" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.bytecode.reflect:IVisibleMember" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeConstant" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.reflect:ByteCodeVariable" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:SimpleConstantPool)" mod="1333183205880" size="6750" optimizedsize="2907">
+      <def id="org.as3commons.bytecode.abc:SimpleConstantPool" />
+      <pre id="org.as3commons.bytecode.abc:IConstantPool" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit.impl:MetadataBuilder)" mod="1317392234653" size="2199" optimizedsize="1156">
+      <def id="org.as3commons.bytecode.emit.impl:MetadataBuilder" />
+      <pre id="org.as3commons.bytecode.emit:IMetadataBuilder" />
+      <pre id="Object" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode:as3commons_bytecode" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataArgument" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.io:AbcDeserializer)" mod="1333263077531" size="12846" optimizedsize="7981">
+      <def id="org.as3commons.bytecode.io:AbcDeserializer" />
+      <pre id="org.as3commons.bytecode.io:AbstractAbcDeserializer" />
+      <pre id="org.as3commons.bytecode.io:IAbcDeserializer" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Argument" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:ClassTrait" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.abc:FunctionTrait" />
+      <dep id="org.as3commons.bytecode.abc:Op" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:ClassConstant" />
+      <dep id="org.as3commons.bytecode.abc:ScriptInfo" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitAttributes" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.io:MethodBodyExtractionKind" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.util:MultinameUtil" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags:DoABCTag)" mod="1303125094651" size="1320" optimizedsize="565">
+      <def id="org.as3commons.bytecode.tags:DoABCTag" />
+      <pre id="org.as3commons.bytecode.tags:AbstractTag" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-logging-2.7.swc(org.as3commons.logging.api:getLogger)" mod="1317502745511" size="576" optimizedsize="236">
+      <def id="org.as3commons.logging.api:getLogger" />
+      <dep id="AS3" />
+      <dep id="String" />
+      <dep id="org.as3commons.logging.util:toLogName" />
+      <dep id="org.as3commons.logging.api:LOGGER_FACTORY" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.serialization:RecordHeaderSerializer)" mod="1303125094590" size="1393" optimizedsize="713">
+      <def id="org.as3commons.bytecode.tags.serialization:RecordHeaderSerializer" />
+      <pre id="org.as3commons.bytecode.tags.serialization:AbstractStructSerializer" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.tags.struct:RecordHeader" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.util:SWFSpec" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc.enum:TraitAttributes)" mod="1332956915765" size="1491" optimizedsize="709">
+      <def id="org.as3commons.bytecode.abc.enum:TraitAttributes" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-lang-0.3.6.swc(org.as3commons.lang:ClassNotFoundError)" mod="1332358561764" size="510" optimizedsize="217">
+      <def id="org.as3commons.lang:ClassNotFoundError" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.tags.struct:FillStyle)" mod="1303125093713" size="523" optimizedsize="245">
+      <def id="org.as3commons.bytecode.tags.struct:FillStyle" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.tags.struct:FillStyleType" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent)" mod="1303125084831" size="2310" optimizedsize="1283">
+      <def id="org.as3commons.bytecode.proxy.event:ProxyFactoryBuildEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="org.as3commons.bytecode.emit:IClassBuilder" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.bytecode.emit:IMethodBuilder" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.abc:ClassInfo)" mod="1333214705102" size="1459" optimizedsize="893">
+      <def id="org.as3commons.bytecode.abc:ClassInfo" />
+      <pre id="org.as3commons.bytecode.abc:BaseTypeInfo" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.io:AbcSerializer)" mod="1333225285006" size="13231" optimizedsize="8747">
+      <def id="org.as3commons.bytecode.io:AbcSerializer" />
+      <pre id="Object" />
+      <dep id="org.as3commons.bytecode.abc:ClassInfo" />
+      <dep id="org.as3commons.bytecode.util:AbcSpec" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="org.as3commons.bytecode.abc:TraitInfo" />
+      <dep id="org.as3commons.bytecode.abc:ConstantPool" />
+      <dep id="org.as3commons.bytecode.abc:InstanceInfo" />
+      <dep id="org.as3commons.bytecode.typeinfo:Argument" />
+      <dep id="org.as3commons.bytecode.abc:MethodInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitKind" />
+      <dep id="org.as3commons.bytecode.abc:MethodBody" />
+      <dep id="org.as3commons.bytecode.abc:MultinameL" />
+      <dep id="org.as3commons.bytecode.abc.enum:Opcode" />
+      <dep id="org.as3commons.bytecode.abc:Multiname" />
+      <dep id="org.as3commons.bytecode.abc.enum:MultinameKind" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.bytecode.abc:ClassTrait" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="org.as3commons.bytecode.abc:NamespaceSet" />
+      <dep id="org.as3commons.bytecode.abc:MultinameG" />
+      <dep id="org.as3commons.bytecode.abc:FunctionTrait" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="org.as3commons.bytecode.abc:AbcFile" />
+      <dep id="org.as3commons.bytecode.abc:ExceptionInfo" />
+      <dep id="org.as3commons.bytecode.abc.enum:ClassConstant" />
+      <dep id="org.as3commons.bytecode.abc:ScriptInfo" />
+      <dep id="org.as3commons.bytecode.abc:SlotOrConstantTrait" />
+      <dep id="org.as3commons.lang:Assert" />
+      <dep id="org.as3commons.bytecode.abc:RuntimeQualifiedName" />
+      <dep id="org.as3commons.bytecode.typeinfo:Metadata" />
+      <dep id="org.as3commons.bytecode.abc:MethodTrait" />
+      <dep id="org.as3commons.bytecode.abc.enum:MethodFlag" />
+      <dep id="Error" />
+      <dep id="org.as3commons.bytecode.abc.enum:TraitAttributes" />
+      <dep id="org.as3commons.bytecode.abc:LNamespace" />
+      <dep id="org.as3commons.bytecode.abc:QualifiedName" />
+      <dep id="org.as3commons.bytecode.abc:BaseMultiname" />
+      <dep id="org.as3commons.bytecode.abc:IConstantPool" />
+      <dep id="org.as3commons.bytecode.abc.enum:ConstantKind" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.emit:IInterfaceBuilder)" mod="1303125100650" size="757" optimizedsize="257">
+      <def id="org.as3commons.bytecode.emit:IInterfaceBuilder" />
+      <pre id="org.as3commons.bytecode.emit:ITypeBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Andres\workspaces\AspectASProject\AspectASLib\libs\as3commons-bytecode-1.1.1.swc(org.as3commons.bytecode.proxy.impl:AbstractProxyFactory)" mod="1319998070935" size="1694" optimizedsize="1130">
+      <def id="org.as3commons.bytecode.proxy.impl:AbstractProxyFactory" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="org.as3commons.bytecode.emit:IMetadataContainer" />
+      <dep id="org.as3commons.lang:StringUtils" />
+      <dep id="org.as3commons.reflect:MetadataArgument" />
+      <dep id="AS3" />
+      <dep id="org.as3commons.logging.api:getLogger" />
+      <dep id="org.as3commons.reflect:Metadata" />
+      <dep id="org.as3commons.bytecode.emit.impl:MetadataArgument" />
+      <dep id="org.as3commons.logging.api:ILogger" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="RegExp" />
+    <ext id="flash.system:ApplicationDomain" />
+    <ext id="flash.geom:Matrix" />
+    <ext id="flash.errors:IllegalOperationError" />
+    <ext id="XMLList" />
+    <ext id="AS3" />
+    <ext id="flash.events:IOErrorEvent" />
+    <ext id="XML" />
+    <ext id="String" />
+    <ext id="Error" />
+    <ext id="flash.geom:ColorTransform" />
+    <ext id="flash.events:ProgressEvent" />
+    <ext id="flash.display:DisplayObject" />
+    <ext id="__AS3__.vec:Vector" />
+    <ext id="SecurityError" />
+    <ext id="flash.utils:Endian" />
+    <ext id="flash.utils:Timer" />
+    <ext id="flash.utils:flash_proxy" />
+    <ext id="flash.display:Graphics" />
+    <ext id="flash.utils:Proxy" />
+    <ext id="flash.geom:Point" />
+    <ext id="flash.utils:getQualifiedClassName" />
+    <ext id="flash.utils:getDefinitionByName" />
+    <ext id="flash.text:TextFieldAutoSize" />
+    <ext id="flash.utils:getTimer" />
+    <ext id="flash.utils:ByteArray" />
+    <ext id="Math" />
+    <ext id="ReferenceError" />
+    <ext id="flash.filters:DropShadowFilter" />
+    <ext id="flash.events:Event" />
+    <ext id="flash.display:BitmapData" />
+    <ext id="flash.utils:describeType" />
+    <ext id="flash.net:URLRequest" />
+    <ext id="flash.display:LoaderInfo" />
+    <ext id="flash.display:Shape" />
+    <ext id="flash.events:IEventDispatcher" />
+    <ext id="flash.geom:Rectangle" />
+    <ext id="flash.system:Capabilities" />
+    <ext id="QName" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="trace" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="flash.text:TextField" />
+    <ext id="Object" />
+    <ext id="flash.text:TextFormat" />
+    <ext id="flash.events:TimerEvent" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.display:Loader" />
+    <ext id="flash.display:Stage" />
+    <ext id="flash.system:LoaderContext" />
+    <ext id="flash.system:Security" />
+    <ext id="flash.utils:getQualifiedSuperclassName" />
+  </external-defs>
+</report>

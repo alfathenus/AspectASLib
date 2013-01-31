@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flex-config>
+	<include-classes>
+		@replace@
+	</include-classes>
+	<target-player>11</target-player>
+	
+	<compiler>
+		
+		
+		<library-path append="true">
+			<path-element>@replacepathlibs@\libs</path-element>
+		</library-path>
+         
+		
+		<allow-source-path-overlap>true</allow-source-path-overlap>
+		<optimize>true</optimize>
+		<debug>false</debug>
+
+	</compiler>
+	
+</flex-config>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flex-config>
+	<include-classes>
+		    <class>com.aspectas.core.AOPFactory</class>
+    <class>com.aspectas.core.AOPWeaver</class>
+    <class>com.aspectas.core.AppDomainContext</class>
+    <class>com.aspectas.core.AspectASBuilder</class>
+    <class>com.aspectas.core.LogicAspectRepresentation</class>
+    <class>com.aspectas.core.LogicWeaverRepresentation</class>
+    <class>com.aspectas.core.elements.Advice</class>
+    <class>com.aspectas.core.elements.Aspect</class>
+    <class>com.aspectas.core.elements.PointCut</class>
+    <class>com.aspectas.core.errors.AOPErrorsContants</class>
+    <class>com.aspectas.core.events.AOPEventComplete</class>
+    <class>com.aspectas.core.events.AOPEventError</class>
+    <class>com.aspectas.core.interceptors.AOPInterceptor</class>
+    <class>com.aspectas.core.interceptors.InterceptContext</class>
+    <class>com.aspectas.core.interfaces.IAdvice</class>
+    <class>com.aspectas.core.interfaces.IAspect</class>
+    <class>com.aspectas.core.interfaces.IInterceptContext</class>
+    <class>com.aspectas.core.interfaces.IPointCut</class>
+    <class>com.aspectas.core.preload.AspectASPreload</class>
+    <class>com.aspectas.core.utils.AdviceTypes</class>
+    <class>com.aspectas.core.utils.AspectASConstants</class>
+    <class>com.aspectas.core.utils.PointcutTypes</class>
+    <class>com.aspectas.core.utils.PointcutValidator</class>
+
+	</include-classes>
+	<target-player>11</target-player>
+	
+	<compiler>
+		
+		
+		<library-path append="true">
+			<path-element>C:\Andres\workspaces\AspectASProject\AspectASLib\libs</path-element>
+		</library-path>
+         
+		
+		<allow-source-path-overlap>true</allow-source-path-overlap>
+		<optimize>true</optimize>
+		<debug>false</debug>
+
+	</compiler>
+	
+</flex-config>

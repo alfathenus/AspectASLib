@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="false" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.aspectas.core.AOPFactory"/>
+    <classEntry path="com.aspectas.core.AOPWeaver"/>
+    <classEntry path="com.aspectas.core.AppDomainContext"/>
+    <classEntry path="com.aspectas.core.AspectASBuilder"/>
+    <classEntry path="com.aspectas.core.LogicAspectRepresentation"/>
+    <classEntry path="com.aspectas.core.LogicWeaverRepresentation"/>
+    <classEntry path="com.aspectas.core.elements.Advice"/>
+    <classEntry path="com.aspectas.core.elements.Aspect"/>
+    <classEntry path="com.aspectas.core.elements.PointCut"/>
+    <classEntry path="com.aspectas.core.errors.AOPErrorsContants"/>
+    <classEntry path="com.aspectas.core.events.AOPEventComplete"/>
+    <classEntry path="com.aspectas.core.events.AOPEventError"/>
+    <classEntry path="com.aspectas.core.interceptors.AOPInterceptor"/>
+    <classEntry path="com.aspectas.core.interceptors.InterceptContext"/>
+    <classEntry path="com.aspectas.core.interfaces.IAdvice"/>
+    <classEntry path="com.aspectas.core.interfaces.IAspect"/>
+    <classEntry path="com.aspectas.core.interfaces.IInterceptContext"/>
+    <classEntry path="com.aspectas.core.interfaces.IPointCut"/>
+    <classEntry path="com.aspectas.core.preload.AspectASPreload"/>
+    <classEntry path="com.aspectas.core.utils.AdviceTypes"/>
+    <classEntry path="com.aspectas.core.utils.AspectASConstants"/>
+    <classEntry path="com.aspectas.core.utils.PointcutTypes"/>
+    <classEntry path="com.aspectas.core.utils.PointcutValidator"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AspectASLib" default="build">
+
+	<dirname property="project.path" file="${basedir}" />
+	<dirname property="workspace.path" file="${project.path}" />
+	
+	<property name="FLEX_HOME" value="C:/Program Files/Adobe/Adobe Flash Builder 4.6/sdks/4.6.0"/>
+	<property name="COMPC.EXE" value="${FLEX_HOME}/bin/compc.exe" />
+	<property name="release.folder" value="${basedir}\release" />
+	<property name="template.path" value="${basedir}\automation\template" />
+
+	<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+	<taskdef name="if" classpath="automation/antlibs/ant-contrib-1.0b3.jar" classname="net.sf.antcontrib.logic.IfTask" />
+	
+	<target name="prepare_release_folder">
+		<if>
+			<available file="${release.folder}" type="dir" />
+			<then>
+					<delete includeemptydirs="true">
+						<fileset dir="${release.folder}">
+							<include name="*.*"/>
+							<include name="**/*.*"/>
+						</fileset>
+					</delete>
+			</then>
+			<else>
+				<mkdir dir="${release.folder}" />
+			</else>
+		</if>
+	</target>
+	
+	<target name="build" depends="prepare_release_folder">
+		<generate-class-list-from-flexProperties2 path=".\\" destination="temp.clases" fileName="AspectASLib" file.path="${release.folder}" />
+		<replace file="${release.folder}/AspectASLib-config.xml" token="@replacepathlibs@" value="${basedir}" />
+		
+		<exec executable="${COMPC.EXE}" failonerror="true">
+			<arg line='-source-path+=""' />
+			<arg line='-sp+="${basedir}\src"' />
+			<arg line='-output="${release.folder}/AspectASLib.swc"' />
+			<arg line='-load-config+=${release.folder}/AspectASLib-config.xml' />
+			<arg line='-target-player=11' />
+			<arg line='-swf-version=13' />
+			<arg line='-incremental=true' />
+			<arg line='-compute-digest=true' />
+			<arg line='-debug=false' />
+			<arg line='-optimize=true' />
+			<arg line='-link-report=${release.folder}/AspectASLib-report.xml' />
+		</exec>
+	</target>
+	
+	
+	<macrodef name="generate-class-list-from-flexProperties2" description="Genera el listado de clases a incluir en una librearia a partir de su .flexProperties">
+		<attribute name="path" />
+		<attribute name="destination" />
+		<attribute name="file.path" />
+		<attribute name="fileName" />
+		
+		<sequential>
+			<loadfile property="@{destination}" srcfile="@{path}\.flexLibProperties">
+				<filterchain>
+					<linecontains>
+						<contains value='&#60;classEntry path="' />
+					</linecontains>
+					<tokenfilter>
+						<replacestring from='&#60;classEntry path="' to="&#60;class&#62;" />
+						<replacestring from='"/&#62;' to="&#60;/class&#62;" />
+					</tokenfilter>
+				</filterchain>
+			</loadfile>
+			
+			<copy file="${template.path}/template-config.xml" tofile="@{file.path}/@{fileName}-config.xml" overwrite="true" />
+			<replace file="@{file.path}/@{fileName}-config.xml" token="@replace@" value="${@{destination}}" />
+		</sequential>
+	</macrodef>
+</project>
