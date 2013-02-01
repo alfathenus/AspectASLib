@@ -47,3 +47,6 @@ TODO's
 * Test, test, unit test, integration tests, tests and mor tests
 * more jointpoint
 * Constructor/exeptions/events interceptors
+
+## License
+[MIT License] (http://opensource.org/licenses/MIT)

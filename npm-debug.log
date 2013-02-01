@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'search',
+1 verbose cli   '/.*' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose url raw /-/all/since?stale=update_after&startkey=1359684342285
+5 verbose url resolving [ 'https://registry.npmjs.org/',
+5 verbose url resolving   './-/all/since?stale=update_after&startkey=1359684342285' ]
+6 verbose url resolved https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1359684342285
+7 info trying registry request attempt 1 at 23:13:39
+8 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1359684342285
+9 http 200 https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1359684342285
+10 verbose exit [ 0, true ]
+11 error Error: write EPIPE
+11 error     at errnoException (net.js:769:11)
+11 error     at Object.afterWrite (net.js:593:19)
+12 error If you need help, you may report this log at:
+12 error     <http://github.com/isaacs/npm/issues>
+12 error or email it to:
+12 error     <npm-@googlegroups.com>
+13 error System Windows_NT 6.1.7601
+14 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "search" "/.*"
+15 error cwd C:\Andres\workspaces\gitRepositories\AspectASLib
+16 error node -v v0.8.14
+17 error npm -v 1.1.65
+18 error syscall write
+19 error code EPIPE
+20 error errno EPIPE
+21 verbose exit [ 1, true ]
